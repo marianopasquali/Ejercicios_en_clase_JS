@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio grupal 3</title>
+</head>
+<body>
+    <script>
+        const Aleatorios = [];
+        Aleatorios.push(Math.round(Math.random()*500+1));
+        Aleatorios.push(Math.round(Math.random()*500+1));
+        Aleatorios.push(Math.round(Math.random()*500+1));
+        Aleatorios.push(Math.round(Math.random()*500+1));
+        
+
+        const SumaAleatorios= Aleatorios[Aleatorios.length-1]+Aleatorios[Aleatorios.length-2];
+
+        document.write(`La suma entre numeros aleatorios es: ${SumaAleatorios}`);
+
+    </script>
+</body>
+</html>
